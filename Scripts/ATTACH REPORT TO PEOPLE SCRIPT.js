@@ -1,0 +1,11 @@
+aa.evn.setValue("reportName","CrystalCliff_accela");
+var reportName  = aa.env.getValue("reportName");
+var report  = aa.reportManager.getReportInfoModelByName(reportName);
+report = report.getOutput();
+aa.evn.setValue("CapID","14CAP-00000-005MP");
+var capID = aa.env.getValue("CapID");
+report.setCapId(capID);
+aa.evn.setValue("module","Building");
+var module = aa.env.getValue("module");
+report.setModule(module);
+aa.reportManager.getReportResult(report);

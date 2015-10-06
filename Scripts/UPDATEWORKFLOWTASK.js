@@ -1,0 +1,15 @@
+aa.print("MESSAGE: " +"Start");
+var templateName = "SendEmailByTemplate";
+var parameScript = aa.communication.getI18nVariables();
+var hashtable = parameScript.getOutput();
+hashtable.put("$$To$$","bunni.zhan@beyondsoft.com");
+hashtable.put("$$Title$$","TestSendEmailByTemplate");
+hashtable.put("$$Name$$","BunniZhan");
+var entities = new Array();
+var entity1 = new Array();
+entity1[0]="RECORD";
+ //This is AltID;
+entity1[1]="14CAP-00002418";
+entities[0]=entity1;
+var result = aa.communication.sendMessages(templateName,hashtable,"UpdateTaskStatus",entities);
+aa.print("MESSAGE: " + result.getOutput());

@@ -1,0 +1,1 @@
+var s_id1 = aa.env.getValue("StaffUserID");
