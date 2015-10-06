@@ -26,6 +26,7 @@
 var controlString = "ExternalDocReviewCompleted"; 				// Standard choice for control
 var preExecute = "PreExecuteForAfterEvents"				// Standard choice to execute first (for globals, etc)
 var documentOnly = false;						// Document Only -- displays hierarchy of std choice steps
+var testIsOk = true;
 
 /*------------------------------------------------------------------------------------------------------/
 | END User Configurable Parameters
