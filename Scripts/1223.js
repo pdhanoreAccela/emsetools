@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------------------------------------------/
 | Accela Automation
 | Accela, Inc.
-| Copyright (C): 2014
+| Copyright (C): 2015
 |
 | SVN Id: ExternalDocReviewCompleted.js 6515 2014-08-01 18:15:38Z james.liang
 | Program : ContactAddAfterV2.0.js
